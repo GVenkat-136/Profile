@@ -1,0 +1,433 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&display=swap'); */
+* {
+  font-family: "Cinzel", serif;
+  /* color: #FEFFFD;  */
+  color: #0b2221;
+  /* color: #FFF; */
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.m-t {
+  margin-top: 30px;
+}
+.m-t1 {
+  margin-top: 50px;
+}
+.B-1 {
+  font-weight: bold;
+}
+.F-15 {
+  font-size: 15px;
+}
+.w-1 {
+  width: 550px !important;
+}
+.h-1 {
+  height: 65vh;
+}
+input {
+  outline: none;
+}
+textarea {
+  outline: none;
+}
+.main_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap {
+  width: 1360px;
+  height: auto;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+#Home,
+#Adavntages,
+#projects,
+#contact,
+#Social_media {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: auto;
+}
+.main-nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main-nav > ul > li {
+  list-style-type: none;
+  margin: 20px;
+  transition: 0.6s;
+}
+.main-nav > ul > li > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #0b2221;
+}
+.main-nav > ul > li > a:hover {
+  text-decoration: underline 5px solid #72f57e;
+}
+.fa-bars {
+  display: none;
+}
+.Intro_self {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10%;
+}
+.intro {
+  width: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* left: 60%; */
+}
+.intro > * {
+  margin-top: 33px;
+}
+.button {
+  font-size: 20px;
+  width: 180px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: #72f57e;
+}
+.m-20 {
+  margin-left: 20px;
+}
+.img {
+  position: relative;
+  left: 16%;
+  top: -180px;
+}
+.img img {
+  position: relative;
+  top: -35px;
+  width: 700px;
+  height: 900px;
+}
+/*  ----------------- SKILES ------------------- */
+#Adavntages {
+  /* background-image: url(../images/bg2.svg); */
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+.heading > h1 {
+  text-align: center;
+}
+.heading > p {
+  margin-top: 20px;
+  width: 76%;
+  position: relative;
+  left: 12%;
+  text-align: justify;
+}
+.Skils {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  row-gap: 70px;
+}
+.Courses_skils {
+  position: relative;
+  top: 20%;
+  left: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 200px;
+  height: auto;
+  margin-right: 30px;
+  padding: 50px;
+  border-radius: 12px;
+  /* background: linear-gradient(180deg,rgba(98, 254, 119, 0.6),#ffffff 67.59%);
+    flex-basis: 28.33%;
+    margin: 0 15px 30px; 
+    transition: 0.5s; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #f5865e #f5865e transparent #f5865e;
+}
+.course-icon {
+  font-size: 45px;
+}
+.Courses_skils > * {
+  margin-top: 15px;
+}
+.boreder-1 {
+  border-color: #109bff #109bff transparent #109bff;
+}
+.boreder-2 {
+  border-color: #fce804ea #f3e983ea transparent #f2ea91ea;
+}
+.boreder-3 {
+  border-color: #8b07f2 #8b07f2 transparent #8b07f2;
+}
+.boreder-4 {
+  border-color: #72f57e #72f57e transparent #72f57e;
+}
+.boreder-5 {
+  border-color: #eee14cea #eee14cea transparent #eee14cea;
+}
+.boreder-6 {
+  border-color: #32f6f9 #32f6f9 transparent #32f6f9;
+}
+.boreder-7 {
+  border-color: #189818 #189818 transparent #189818;
+}
+.text-1 {
+  color: #f5865e;
+}
+.text-2 {
+  color: #109bff;
+}
+.text-3 {
+  color: #eee14cea;
+}
+.text-4 {
+  color: #8b07f2;
+}
+.text-5 {
+  color: #72f57e;
+}
+.text-6 {
+  color: #eee14cea;
+}
+.text-7 {
+  color: #32f6f9;
+}
+.text-8 {
+  color: #189818;
+}
+/* ------------------------- SOCIAL MEDIA------------------- */
+.social_media_link {
+  position: relative;
+  top: 10%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.Social_links {
+  display: grid;
+  grid-template-columns: 350px 350px;
+  align-items: center;
+  gap: 7rem 7rem;
+}
+.github,
+.twitter,
+.linkedin,
+.instgram {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  height: 25vh;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-width: 3px;
+  border-style: solid;
+}
+.social_name {
+  font-size: 22px;
+  font-weight: bold;
+}
+.social_icon {
+  width: 70px;
+  height: 70px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social_icon_size {
+  font-size: 70px;
+}
+.git {
+  border-color: #8b07f2 #8b07f2 transparent #8b07f2;
+}
+.twt {
+  border-color: #32f6f9 #32f6f9 transparent #32f6f9;
+}
+.link {
+  border-color: #046a99 #046a99 transparent #046a99;
+}
+.insta {
+  border-color: #e8197d #e8197d transparent #e8197d;
+}
+.git1 {
+  color: #8b07f2;
+}
+.twt1 {
+  color: #32f6f9;
+}
+.link1 {
+  color: #046a99;
+}
+.insta1 {
+  color: #e8197d;
+}
+/* -------------------------------------Project Css--------------------------  */
+.projects {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  row-gap: 7rem;
+  column-gap: 3rem;
+  position: relative;
+  top: 2%;
+}
+.projects_skils {
+  padding: 20px !important;
+  position: relative !important;
+  top: 10% !important;
+  left: 20% !important;
+}
+/* -----------------------------CONTACT-------------CSS------------------------------------------ */
+.contact {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  row-gap: 70px;
+}
+.from {
+  position: relative;
+  top: 3%;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 550px;
+  height: 65vh;
+  margin-right: 30px;
+  padding: 15px;
+  border: 2px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.name > input,
+.phone > input,
+.textarea > textarea,
+.subject > select {
+  width: 200px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #0b2221;
+}
+.phone > input,
+.textarea > textarea,
+.subject > select {
+  width: 420px !important;
+}
+.adrress {
+  position: relative;
+  top: 9%;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Icon {
+  padding: 50px;
+  margin-top: 30px;
+  border: 2px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Icon > i {
+  position: relative;
+  top: 20px;
+  color: #0b2221;
+  font-size: 50px;
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* -----------------ABOUT PAGE----------------------- */
+#about {
+  /* background-color: #0b2221; */
+  width: 100%;
+  height: 50vh;
+  padding: 20px;
+}
+.details {
+  position: relative;
+  top: 14%;
+  display: grid;
+  grid-template-columns: 500px 350px 350px;
+}
+.info {
+  width: 500px;
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 1px solid #0b2221;
+}
+.profile > ul {
+  display: flex;
+  flex-direction: row;
+}
+.profile > ul > li {
+  list-style: none;
+}
+.profile > ul > li > a {
+  margin-left: 30px;
+}
+.profile > ul > li > a > i {
+  font-size: 40px;
+}
+.services {
+  position: relative;
+  left: 15%;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 1px solid #0b2221;
+}
+.SEND {
+  position: relative;
+  left: 17%;
+}
+.services > ul > li {
+  margin-top: 20px;
+}
+.services > ul > li > a {
+  text-decoration: none;
+  color: #000;
+}
+#usermailid {
+  border: none;
+  border-bottom: 1px solid;
+}
+.Yourmail {
+  position: relative;
+  left: -2.5px;
+  border: none;
+  border-bottom: 1px solid;
+  background: transparent;
+}
+.Yourmail > i {
+  font-size: 20px;
+}

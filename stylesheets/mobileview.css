@@ -1,0 +1,85 @@
+@media screen and (min-width: 375px) and (max-width: 900px) {
+  .main_wrap {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrap {
+    max-width: 900px;
+  }
+  #Home,
+  #Adavntages,
+  #projects,
+  #contact,
+  #Social_media {
+    max-width: 900px;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  #projects,
+  #Adavntages {
+    height: auto !important;
+    margin: 50px 0;
+  }
+  .Skils {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    row-gap: 70px;
+    position: relative;
+    left: 5%;
+  }
+  .Courses_skils1 {
+    height: 30vh !important;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: 300px;
+    row-gap: 2rem;
+    justify-content: flex-start;
+    position: relative;
+    left: 10%;
+  }
+  .contact {
+    display: grid;
+    grid-template-columns: 600px;
+    row-gap: 70px;
+    position: relative;
+    left: 10%;
+  }
+  .from {
+    height: auto !important;
+  }
+  .adrress {
+    display: none;
+  }
+  .details {
+    position: relative;
+    top: 14%;
+    display: grid;
+    grid-template-columns: 500px;
+    row-gap: 2rem;
+    justify-content: center;
+    padding: 30px 0;
+  }
+  .info,
+  .services {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    border-bottom: 1px solid #0b2221;
+  }
+  .services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0%;
+    padding: 30px 0;
+  }
+  .profile {
+    height: 120px;
+  }
+}
