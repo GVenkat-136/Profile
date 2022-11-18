@@ -153,7 +153,6 @@ textarea {
   justify-content: center;
   justify-items: center;
   align-items: center;
-  width: 200px;
   height: 30vh;
   margin-right: 30px;
   padding: 50px;
@@ -231,7 +230,7 @@ textarea {
   display: grid;
   grid-template-columns: 350px 350px;
   align-items: center;
-  gap: 7rem 7rem;
+  gap: 5rem 7rem;
 }
 .github,
 .twitter,
@@ -294,10 +293,8 @@ textarea {
 .projects {
   display: grid;
   grid-template-columns: 600px 600px;
-  row-gap: 7rem;
+  row-gap: 3rem;
   column-gap: 3rem;
-  position: relative;
-  top: 2%;
 }
 .projects_skils {
   padding: 20px !important;
