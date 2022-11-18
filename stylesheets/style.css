@@ -154,7 +154,7 @@ textarea {
   justify-items: center;
   align-items: center;
   width: 200px;
-  height: auto;
+  height: 30vh;
   margin-right: 30px;
   padding: 50px;
   border-radius: 12px;
@@ -319,7 +319,7 @@ textarea {
   flex-direction: column;
   align-items: center;
   width: 550px;
-  height: 65vh;
+  height: auto;
   margin-right: 30px;
   padding: 15px;
   border: 2px solid transparent;
