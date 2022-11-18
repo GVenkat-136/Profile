@@ -11,7 +11,7 @@ const sendmassage = () => {
     SecureToken: "8faf388a-8aac-4e12-8171-dc4942e38dfa",
     To: "dev.gvnarendra@gmail.com",
     From: "dev.gvnarendra@gmail.com",
-    Subject: message.subject,
+    Subject: `Getting New Message From web Site Regarding${message.subject}`,
     Body: `This ${message.mail} This My Requirement ${message.regarding}`,
   }).then((message) => alert(message));
   clear();
@@ -31,8 +31,7 @@ const sendmail = () => {
     SecureToken: "8faf388a-8aac-4e12-8171-dc4942e38dfa",
     To: "dev.gvnarendra@gmail.com",
     From: "dev.gvnarendra@gmail.com",
-    Subject:
-      "one User Is Send The Her/Him mail Id For talk To you Send the your Responce to him/her",
+    Subject: "Getting New Mail From WebSite",
     Body: `This ${message1.mail1}  my Mail Id I need talk to you I'm wait for your respones`,
   }).then((message) => alert(message));
   clearsendmail();
@@ -41,3 +40,11 @@ const clearsendmail = () => {
   message1.mail1 = $("#usermailid").val("");
 };
 // -----------------   Send Mail Loging  Logics ----------------//
+function downloadfile() {
+  const anchor = document.createElement("a");
+  anchor.href = "file/G.venkataNarendra.pdf";
+  anchor.download = "venkataNarendraresume.pdf";
+  document.body.appendChild(anchor);
+  anchor.click();
+  document.body.removeChild(anchor);
+}
