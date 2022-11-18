@@ -13,7 +13,7 @@ const sendmassage = () => {
     From: "dev.gvnarendra@gmail.com",
     Subject: `Getting New Message From web Site Regarding${message.subject}`,
     Body: `This ${message.mail} This My Requirement ${message.regarding}`,
-  }).then((message) => alert(message));
+  }).then((message) => alert(`Successfully send`));
   clear();
 };
 const clear = () => {
@@ -33,7 +33,7 @@ const sendmail = () => {
     From: "dev.gvnarendra@gmail.com",
     Subject: "Getting New Mail From WebSite",
     Body: `This ${message1.mail1}  my Mail Id I need talk to you I'm wait for your respones`,
-  }).then((message) => alert(message));
+  }).then((message) => alert(`Successfully send`));
   clearsendmail();
 };
 const clearsendmail = () => {
