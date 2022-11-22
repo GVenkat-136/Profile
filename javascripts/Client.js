@@ -39,7 +39,7 @@ const sendmail = () => {
 const clearsendmail = () => {
   message1.mail1 = $("#usermailid").val("");
 };
-// -----------------   Send Mail Loging  Logics ----------------//
+// -----------------   Download Resume Logics ----------------//
 function downloadfile() {
   const anchor = document.createElement("a");
   anchor.href = "file/G.venkataNarendra.pdf";
@@ -48,3 +48,4 @@ function downloadfile() {
   anchor.click();
   document.body.removeChild(anchor);
 }
+// -----------------   Form validation Logics ----------------
