@@ -302,6 +302,11 @@ textarea {
   top: 10% !important;
   left: 20% !important;
 }
+.project-1{
+  background-image: url("../images/project-1.png");
+  background-size: 100%;
+  justify-content:end !important;
+}
 /* -----------------------------CONTACT-------------CSS------------------------------------------ */
 .contact {
   display: grid;
