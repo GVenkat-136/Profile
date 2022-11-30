@@ -42,7 +42,7 @@ const clearsendmail = () => {
 // -----------------   Download Resume Logics ----------------//
 function downloadfile() {
   const anchor = document.createElement("a");
-  anchor.href = "file/G.venkataNarendra.pdf";
+  anchor.href = "file/venkataNarendra.pdf";
   anchor.download = "venkataNarendraresume.pdf";
   document.body.appendChild(anchor);
   anchor.click();
